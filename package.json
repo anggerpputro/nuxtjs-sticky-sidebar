@@ -1,17 +1,17 @@
 {
-  "name": "vue-sticky-sidebar",
-  "version": "1.0.4",
+  "name": "nuxtjs-sticky-sidebar",
+  "version": "1.0.0",
   "author": {
-    "name": "Karan Yadav",
-    "email": "kyadav510@gmail.com",
-    "url": "https://github.com/alucard17"
+    "name": "Angger Priyardhan Putro",
+    "email": "anggerpputro@gmail.com",
+    "url": "https://github.com/anggerpputro"
   },
-  "description": "Vue.js component implementing the sticky-sidebar library.",
+  "description": "Nuxt.js component implementing the sticky-sidebar library.",
   "repository": {
-    "url": "https://github.com/Alucard17/vue-sticky-sidebar.git",
+    "url": "https://github.com/anggerpputro/vue-sticky-sidebar.git",
     "type": "git"
   },
-  "homepage": "https://github.com/Alucard17/vue-sticky-sidebar#readme",
+  "homepage": "https://github.com/anggerpputro/vue-sticky-sidebar#readme",
   "main": "dist/vue-sticky-sidebar.ssr.js",
   "browser": "dist/vue-sticky-sidebar.esm.js",
   "module": "dist/vue-sticky-sidebar.esm.js",
@@ -28,7 +28,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
-    "sticky-sidebar-v2": "https://github.com/Alucard17/sticky-sidebar-v2"
+    "sticky-sidebar-v2": "https://github.com/anggerpputro/sticky-sidebar-v2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
