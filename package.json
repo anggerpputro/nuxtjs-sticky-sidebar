@@ -1,14 +1,15 @@
 {
   "name": "nuxtjs-sticky-sidebar",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "author": {
     "name": "Angger Priyardhan Putro",
     "email": "anggerpputro@gmail.com",
     "url": "https://github.com/anggerpputro"
   },
+  "license": "The MIT License (MIT)",
   "description": "Nuxt.js component implementing the sticky-sidebar library.",
   "repository": {
-    "url": "https://github.com/anggerpputro/vue-sticky-sidebar.git",
+    "url": "https://github.com/anggerpputro/nuxtjs-sticky-sidebar.git",
     "type": "git"
   },
   "homepage": "https://github.com/anggerpputro/vue-sticky-sidebar#readme",
@@ -28,7 +29,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
-    "sticky-sidebar-v2": "https://github.com/anggerpputro/sticky-sidebar-v2"
+    "angger-sticky-sidebar-v2": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

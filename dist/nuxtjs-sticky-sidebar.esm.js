@@ -1,4 +1,4 @@
-import StickySidebar from 'sticky-sidebar-v2';
+import StickySidebar from 'angger-sticky-sidebar-v2';
 
 //
 var script = {

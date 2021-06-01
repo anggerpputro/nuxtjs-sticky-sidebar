@@ -1,4 +1,4 @@
-'use strict';Object.defineProperty(exports,'__esModule',{value:true});function _interopDefault(e){return(e&&(typeof e==='object')&&'default'in e)?e['default']:e}var StickySidebar=_interopDefault(require('sticky-sidebar-v2'));//
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});function _interopDefault(e){return(e&&(typeof e==='object')&&'default'in e)?e['default']:e}var StickySidebar=_interopDefault(require('angger-sticky-sidebar-v2'));//
 var script = {
   name: "nuxtjs-sticky-sidebar",
   props: {

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import StickySidebar from "sticky-sidebar-v2";
+import StickySidebar from "angger-sticky-sidebar-v2";
 
 export default {
 	name: "nuxtjs-sticky-sidebar",
