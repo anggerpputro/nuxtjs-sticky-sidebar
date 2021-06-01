@@ -1,11 +1,11 @@
 // Import vue component
-import component from '@/vue-sticky-sidebar.vue';
+import component from '@/nuxtjs-sticky-sidebar.vue';
 
 // install function executed by Vue.use()
-const install = function installVueStickySidebar(Vue) {
+const install = function installNuxtjsStickySidebar(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueStickySidebar', component);
+  Vue.component('NuxtjsStickySidebar', component);
 };
 
 // Create module definition for Vue.use()

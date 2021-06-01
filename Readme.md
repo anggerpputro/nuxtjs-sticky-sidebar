@@ -31,9 +31,9 @@ $ yarn add nuxtjs-sticky-sidebar
     </header>
 
     <div class="container clearfix">
-      <vue-sticky-sidebar class="sidebar" containerSelector=".container" innerWrapperSelector='.sidebar__inner'>
+      <nuxtjs-sticky-sidebar class="sidebar" containerSelector=".container" innerWrapperSelector='.sidebar__inner'>
             <p>This is sticky column</p>
-      </vue-sticky-sidebar>
+      </nuxtjs-sticky-sidebar>
       <div id="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus id leo et aliquam. Proin consectetur ligula vel neque cursus laoreet. Nullam dignissim, augue at consectetur pellentesque, metus ipsum interdum sapien, quis ornare quam enim vel ipsum.</p> dolor.</p>
       </div>
@@ -48,12 +48,12 @@ $ yarn add nuxtjs-sticky-sidebar
 
 
 <script>
-import vueStickySidebar from "vue-sticky-sidebar";
+import nuxtjsStickySidebar from "nuxtjs-sticky-sidebar";
 
 export default {
   name: "ServeDev",
   components: {
-    "vue-sticky-sidebar": vueStickySidebar
+    "nuxtjs-sticky-sidebar": nuxtjsStickySidebar
   }
 };
 </script>

@@ -1,6 +1,6 @@
 'use strict';Object.defineProperty(exports,'__esModule',{value:true});function _interopDefault(e){return(e&&(typeof e==='object')&&'default'in e)?e['default']:e}var StickySidebar=_interopDefault(require('sticky-sidebar-v2'));//
 var script = {
-  name: "vue-sticky-sidebar",
+  name: "nuxtjs-sticky-sidebar",
   props: {
     rootClass: {
       type: String,
@@ -155,10 +155,10 @@ var __vue_component__ = /*#__PURE__*/normalizeComponent({
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, undefined, undefined);// Import vue component
 
-var install = function installVueStickySidebar(Vue) {
+var install = function installNuxtjsStickySidebar(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueStickySidebar', __vue_component__);
+  Vue.component('NuxtjsStickySidebar', __vue_component__);
 }; // Create module definition for Vue.use()
 
 

@@ -2,7 +2,7 @@ import StickySidebar from 'sticky-sidebar-v2';
 
 //
 var script = {
-  name: "vue-sticky-sidebar",
+  name: "nuxtjs-sticky-sidebar",
   props: {
     rootClass: {
       type: String,
@@ -168,10 +168,10 @@ const __vue_component__ = /*#__PURE__*/normalizeComponent({
 
 // Import vue component
 
-const install = function installVueStickySidebar(Vue) {
+const install = function installNuxtjsStickySidebar(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueStickySidebar', __vue_component__);
+  Vue.component('NuxtjsStickySidebar', __vue_component__);
 }; // Create module definition for Vue.use()
 // to be registered via Vue.use() as well as Vue.component()
 

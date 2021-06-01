@@ -1,6 +1,6 @@
 {
   "name": "nuxtjs-sticky-sidebar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Angger Priyardhan Putro",
     "email": "anggerpputro@gmail.com",
@@ -12,10 +12,10 @@
     "type": "git"
   },
   "homepage": "https://github.com/anggerpputro/vue-sticky-sidebar#readme",
-  "main": "dist/vue-sticky-sidebar.ssr.js",
-  "browser": "dist/vue-sticky-sidebar.esm.js",
-  "module": "dist/vue-sticky-sidebar.esm.js",
-  "unpkg": "dist/vue-sticky-sidebar.min.js",
+  "main": "dist/nuxtjs-sticky-sidebar.ssr.js",
+  "browser": "dist/nuxtjs-sticky-sidebar.esm.js",
+  "module": "dist/nuxtjs-sticky-sidebar.esm.js",
+  "unpkg": "dist/nuxtjs-sticky-sidebar.min.js",
   "files": [
     "dist/*",
     "src/**/*.vue"
