@@ -1,5 +1,7 @@
 ## Nuxt.js component implementing the [sticky-sidebar-v2](https://github.com/blixhavn/sticky-sidebar-v2) library.
 
+[![NPM](https://nodei.co/npm/nuxtjs-sticky-sidebar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nuxtjs-sticky-sidebar/)
+
 ![Version](https://badgen.net/npm/v/nuxtjs-sticky-sidebar)
 ![Downloads/Week](https://badgen.net/npm/dw/nuxtjs-sticky-sidebar)
 ![Minified Bundlesize](https://badgen.net/bundlephobia/min/nuxtjs-sticky-sidebar)
